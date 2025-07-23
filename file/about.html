@@ -1,193 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>about</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>about</title>
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
 
-  <!-- font awesome cdn link  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
 
-  <!-- custom css file link  -->
-  <link rel="stylesheet" href="../css/style.css" />
-</head>
+  <body>
+    <!-- navbar section starts  -->
 
-<body>
-  <!-- navbar section starts  -->
+    <nav class="navbar">
+      <a href="../index.html">
+        <i class="fas fa-home"></i> <span>home</span>
+      </a>
+      <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
+      <a href="portfolio.html">
+        <i class="fas fa-briefcase"></i> <span>portfolio</span>
+      </a>
+      <a href="blogs.html"> <i class="fas fa-blog"></i> <span>blogs</span> </a>
+      <a href="contact.html">
+        <i class="fas fa-address-book"></i> <span>contact</span>
+      </a>
+    </nav>
 
-  <nav class="navbar">
-    <a href="../index.html"> <i class="fas fa-home"></i> <span>home</span> </a>
-    <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
-    <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
-    <a href="blogs.html"> <i class="fas fa-blog"></i> <span>blogs</span> </a>
-    <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
-  </nav>
+    <!-- navbar section ends -->
 
-  <!-- navbar section ends -->
+    <!-- about section starts  -->
 
-  <!-- about section starts  -->
+    <section class="about">
+      <h1 class="heading">about <span>me</span></h1>
 
-  <section class="about">
-    <h1 class="heading">about <span>me</span></h1>
+      <div class="row">
+        <div class="info-container">
+          <h1>personal info</h1>
 
-    <div class="row">
-      <div class="info-container">
-        <h1>personal info</h1>
+          <div class="box-container">
+            <div class="box">
+              <h3><span>name : </span> Bagas Alesi Priatama</h3>
+              <h3><span>age : </span> <span id="age"></span></h3>
+              <h3 class="lowercase">
+                <span>email : </span> bagasalesipriatama@gmail.com
+              </h3>
+              <h3><span>address : </span> Bekasi, Indonesia- 17158</h3>
+            </div>
 
-        <div class="box-container">
-          <div class="box">
-            <h3><span>name : </span> Bagas Alesi Priatama</h3>
-            <h3><span>age : </span> <span id="age"></span></h3>
-            <h3 class="lowercase"><span>email : </span> bagasalesipriatama@gmail.com</h3>
-            <h3><span>address : </span> Bekasi, Indonesia- 17158</h3>
+            <div class="box">
+              <h3><span>freelance : </span> available</h3>
+              <h3><span>skill : </span> front-end & uI/uX designer</h3>
+              <h3><span>experience : </span> 3 years</h3>
+              <h3><span>language : </span> Indonesia, english (basic)</h3>
+            </div>
           </div>
 
-          <div class="box">
-            <h3><span>freelance : </span> available</h3>
-            <h3><span>skill : </span> front-end & uI/uX designer</h3>
-            <h3><span>experience : </span> 3 years</h3>
-            <h3><span>language : </span> Indonesia, english (basic)</h3>
-          </div>
+          <a
+            href="https://drive.google.com/file/d/1SAjO8QD2ODUc7AEQ5cDAWj-aEWimugcu/view?usp=drive_link"
+            class="btn"
+          >
+            download CV <i class="fas fa-download"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- skills section starts  -->
+
+    <section class="skills">
+      <h1 class="heading"><span>my</span> skills</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="../images/figma.png" />
+          <h3>figma</h3>
+        </div>
+        <div class="box">
+          <img src="../images/icon-1.png" />
+          <h3>html</h3>
+        </div>
+        <div class="box">
+          <img src="../images/icon-2.png" />
+          <h3>css</h3>
+        </div>
+        <div class="box">
+          <img src="../images/icon-3.png" />
+          <h3>javascript</h3>
+        </div>
+        <div class="box">
+          <img src="../images/xd.png" />
+          <h3>xd</h3>
+        </div>
+        <div class="box">
+          <img src="../images/vue.png" />
+          <h3>vue</h3>
+        </div>
+        <div class="box">
+          <img src="../images/laravel.png" />
+          <h3>laravel</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section ends -->
+
+    <!-- education section starts  -->
+
+    <section class="education">
+      <h1 class="heading"><span>my</span> education</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019 - 2025</span>
+          <h3>perbanas institute</h3>
+          <p>information systems</p>
         </div>
 
-        <a href="https://drive.google.com/file/d/1SAjO8QD2ODUc7AEQ5cDAWj-aEWimugcu/view?usp=drive_link" class="btn">
-          download CV <i class="fas fa-download"></i> </a>
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2017 - 2019</span>
+          <h3>SMK teratai putih global 4 bekasi</h3>
+          <p>software engineering</p>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- about section ends -->
+    <!-- education section ends -->
 
-  <!-- skills section starts  -->
+    <!-- experience section start -->
 
-  <section class="skills">
-    <h1 class="heading"><span>my</span> skills</h1>
+    <section class="education">
+      <h1 class="heading"><span>my</span> experience</h1>
 
-    <div class="box-container">
-      <div class="box">
-        <img src="../images/figma.png" />
-        <h3>figma</h3>
-      </div>
-      <div class="box">
-        <img src="../images/icon-1.png" />
-        <h3>html</h3>
-      </div>
-      <div class="box">
-        <img src="../images/icon-2.png" />
-        <h3>css</h3>
-      </div>
-      <div class="box">
-        <img src="../images/icon-3.png" />
-        <h3>javascript</h3>
-      </div>
-      <div class="box">
-        <img src="../images/xd.png" />
-        <h3>xd</h3>
-      </div>
-      <div class="box">
-        <img src="../images/vue.png" />
-        <h3>vue</h3>
-      </div>
-      <div class="box">
-        <img src="../images/laravel.png" />
-        <h3>laravel</h3>
-      </div>
-    </div>
-  </section>
-
-  <!-- skills section ends -->
-
-  <!-- education section starts  -->
-
-  <section class="education">
-    <h1 class="heading"><span>my</span> education</h1>
-
-    <div class="box-container">
-      <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2019 - now</span>
-        <h3>perbanas institute</h3>
-        <p>information systems</p>
-      </div>
-
-      <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2017 - 2019</span>
-        <h3>SMK teratai putih global 4 bekasi</h3>
-        <p>software engineering</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- education section ends -->
-
-  <!-- experience section start -->
-
-  <section class="education">
-    <h1 class="heading"><span>my</span> experience</h1>
-
-    <div class="box-container">
-      <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Feb 2023 - Now</span>
-        <h3>PT. Berkah Jaya Sentosa - Developer</h3>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Jul 2024- Now</span>
+          <h3>PT. Berkah Jaya Sentosa - Full Stack Developer</h3>
           <p>
-            Design and implement the user interface of an application or website, ensuring an interactive and responsive user experience and managing servers, databases and application logic to ensure data is processed and transmitted securely and efficiently.
+            Develop clean, testable, and efficient codebase encompassing both
+            front-end and back-end components, adhering to established design
+            patterns and architectural principles.
           </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Feb 2023 - Jul 2024</span>
+          <h3>PT. Berkah Jaya Sentosa - Front End Developer</h3>
+          <p>
+            Design and implement the user interface of an application or
+            website, ensuring an interactive and responsive user experience and
+            managing servers, databases and application logic to ensure data is
+            processed and transmitted securely and efficiently.
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Feb 2022 - Jul 2022</span>
+          <h3>Ice Institute - Educational Game Developer</h3>
+          <p>
+            Make an educational game to increase children's learning interest
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Aug 2021 - Dec 2021</span>
+          <h3>Skilvul - UI/UX designer</h3>
+          <p>
+            Create a mobile app design using figma and perform Usability Testing
+            of the product being made
+          </p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Aug 2021 - Nov 2021</span>
+          <h3>Kodaso Studio - Front-End Developer</h3>
+          <p>Make a website design display</p>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Aug 2017 - Nov 2017</span>
+          <h3>PT. Polymatech Indonesia - Production Section</h3>
+          <p>Sort the Products to be used</p>
+        </div>
       </div>
+    </section>
 
-      <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Feb 2022 - Jul 2022</span>
-        <h3>Ice Institute - Educational Game Developer</h3>
-        <p>Make an educational game to increase children's learning interest</p>
-      </div>
-
-      <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Aug 2021 - Dec 2021</span>
-        <h3>Skilvul - UI/UX designer</h3>
-        <p>Create a mobile app design using figma and perform Usability Testing of the product being made</p>
-      </div>
-
-      <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Aug 2021 - Nov 2021</span>
-        <h3>Kodaso Studio - Front-End Developer</h3>
-        <p>Make a website design display</p>
-      </div>
-
-      <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>Aug 2017 - Nov 2017</span>
-        <h3>PT. Polymatech Indonesia - Production Section</h3>
-        <p>Sort the Products to be used</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- experience section end -->
-</body>
-
+    <!-- experience section end -->
+  </body>
 </html>
 <script>
   function calculateAge(birthDate) {
-      const today = new Date(); // Tanggal hari ini
-      const birth = new Date(birthDate); // Tanggal lahir
+    const today = new Date(); // Tanggal hari ini
+    const birth = new Date(birthDate); // Tanggal lahir
 
-      let age = today.getFullYear() - birth.getFullYear(); // Selisih tahun
-      const monthDiff = today.getMonth() - birth.getMonth();
-      const dayDiff = today.getDate() - birth.getDate();
+    let age = today.getFullYear() - birth.getFullYear(); // Selisih tahun
+    const monthDiff = today.getMonth() - birth.getMonth();
+    const dayDiff = today.getDate() - birth.getDate();
 
-      // Jika bulan lahir lebih besar dari bulan saat ini, atau
-      // bulan lahir sama tapi tanggal lahir lebih besar dari tanggal hari ini, kurangi umur 1 tahun
-      if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
-          age--;
-      }
+    // Jika bulan lahir lebih besar dari bulan saat ini, atau
+    // bulan lahir sama tapi tanggal lahir lebih besar dari tanggal hari ini, kurangi umur 1 tahun
+    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+      age--;
+    }
 
-      return age;
+    return age;
   }
 
   document.getElementById("age").textContent = calculateAge("2001-07-25");
